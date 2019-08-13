@@ -1,3 +1,9 @@
-<p>
-  new works!
-</p>
+<div class="center">
+  <div class="block">
+    <h5>To upload a new CSV file, select a local file below.</h5>
+    <!-- <label class="imitationButton">UPLOAD</label> -->
+    <!-- <input type="file" name="uploadCSV" id="uploadCSV"/> -->
+    <input type="file" id="file" (change)="runFileUpload($event)"/>
+
+  </div>
+</div>
